@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@layer base {
+  body,
+  html {
+    @apply bg-slate-950 m-0 p-0 text-white h-screen w-screen;
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+  }
+
+  #root {
+    @apply h-full w-full flex flex-col items-center justify-center;
+  }
+}
