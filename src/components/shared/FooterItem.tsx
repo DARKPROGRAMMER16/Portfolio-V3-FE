@@ -23,7 +23,7 @@ const FooterItem: FC<FooterItemProps> = ({
     <Link
       to={link}
       target="_blank"
-      className={clsx('h-full flex items-center min-w-[4rem] text-slate-400', classes, {
+      className={clsx('h-full flex items-center min-w-[4rem] text-slate-400 gap-1', classes, {
         'border-r border-r-slate-700': borderRight,
         'border-l border-l-slate-700': borderLeft, // only apply when active
       })}
